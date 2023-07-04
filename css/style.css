@@ -5305,10 +5305,15 @@ header.header-3 .main-menu ul > li > ul ul {
 
 .single-service-box h4 a {
   display: inline-block;
-  padding: 10px 45px;
+  padding: 10px 0;
   background: #d6fa52;
+  width: 100%;
   color: #0d0d0f;
   border-radius: 4px;
+}
+
+.no-top-padding .footer-widgets-wrapper {
+  padding-top: 80px !important;
 }
 
 .single-service-box .read-more-link {
@@ -9751,6 +9756,7 @@ footer .footer-bottom .social-links a:last-of-type {
 }
 #loader {
   display: flex;
+  /* display: none; */
   align-items: center;
   justify-content: center;
   position: fixed;
@@ -9786,4 +9792,27 @@ footer .footer-bottom .social-links a:last-of-type {
   outline: none !important;
   border: none !important;
   box-shadow: none !important;
+}
+
+#hero-section .outer-wrapper {
+  background-image: url(https://i.imgur.com/7aWiGgz.jpg);
+  background-size: cover;
+  /* background: #000; */
+  /* background-image: url(./../assets/img/slide1.jpg); */
+}
+
+#hero-section .overlay-custom {
+  display: flex;
+  align-items: center;
+  min-height: 60vh;
+  padding-top: 100px;
+  background: #0000005e;
+}
+
+.hero-heading {
+  color: #fff;
+}
+
+.hero-para {
+  padding: 50px 0;
 }
